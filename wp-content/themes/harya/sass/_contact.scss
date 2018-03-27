@@ -1,0 +1,79 @@
+section#contact {
+  display: block;
+  background: #f0ecec;
+  padding: 5%;
+  div.titre {
+    display: block;
+    padding-left: 7%;
+  h2{
+    background: white;
+    display: block;
+    width: 100px;
+    height: 30px;
+    padding-left: 1%;
+    line-height: 30px;
+    color: #939594;
+    font-size: 24px;
+    font-family: 'Plafair Display', serif;
+  }
+}
+
+  div.illustration{
+    padding-bottom: 5%;
+    span{
+      display:block;
+   -webkit-transform: rotate(-90deg);
+   -moz-transform: rotate(-90deg);
+   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); //For IE support
+   margin-top: -300px;
+   padding-left: 100%;
+   color: #939594;
+   font-family: 'Plafair Display', serif;
+   font-size: 34px;
+    }
+  }
+
+  div.form{
+    max-width: 500px;
+    text-align: right;
+
+    input[type="submit"]{
+      background: white;
+      color: #d0de72;
+      border: 1px solid #d9d9d9;
+      width: 230px;
+      height: 50px;
+      line-height: 50px;
+      font-size: 20px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 600;
+      margin-right: -17px;
+
+
+    }
+    label {
+      line-height: 0px;
+      input{
+        height: 45px;
+        box-shadow: none;
+        max-width: 500px;
+        border: 1px solid #d9d9d9;
+        color: #d9d9d9;
+        textarea{
+
+        }
+
+      }
+
+    }
+  }
+  .wpcf7-response-output  {
+    border: none;
+  }
+}
+
+@media screen and(max-width:640px){
+   div.illustration{
+    padding-bottom: 5%;
+  }
+}

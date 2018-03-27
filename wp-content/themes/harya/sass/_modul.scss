@@ -1,0 +1,22 @@
+section#modul1 {
+  display: block;
+  background: #d0de72;
+  height: 150px;
+  line-height: 55px;
+  padding-top: 50px;
+  text-align: center;
+  a {
+    margin: 0 auto;
+    display: block;
+    background: white;
+    color: #d0de72;
+    width: 350px;
+    height: 55px;
+    line-height: 55px;
+    font-family: 'Plafair Display', serif;
+    font-size: 20px;
+    &:hover {
+      color: #939594;
+    }
+  }
+}

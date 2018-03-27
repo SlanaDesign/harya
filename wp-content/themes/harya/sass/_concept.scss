@@ -1,0 +1,51 @@
+section#concept {
+  background: #f48691;
+  margin-top: -30px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  vertical-align: top;
+
+  div {
+    display: inline-block;
+    div.meuble {
+      display: inline-block;
+    }
+    div.text_concept {
+      display: inline-block;
+      padding-right: 10%;
+      padding-top: 2%;
+      vertical-align: top;
+      h2 {
+        background: white;
+        display: block;
+        width: 210px;
+        height: 30px;
+        line-height: 30px;
+        padding-left: 10px;
+        color: #d0de72;
+        font-size: 20px;
+        font-family: 'Playfair Display', serif;
+      }
+      h3 {
+        background: white;
+        display: block;
+        width: 210px;
+        height: 30px;
+        margin-top: -10px;
+        margin-left: 20px;
+        line-height: 30px;
+        padding-left: 10px;
+        color: #939594;
+        font-size: 20px;
+        font-family: 'Playfair Display', serif;
+      }
+      p.para {
+        font-size: 14px;
+        font-family: 'Releway', sans-serif;
+        color: white;
+      }
+    }
+  }
+
+
+}
